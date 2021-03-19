@@ -1,9 +1,11 @@
-# making-coffee
+# Daily Task: Picking my brother up from school
+# see schoolpickup.js
 
-Converting my "making coffee" flow chart to JavaScript code.
+# coffee.js files are Tony Enerson's making-coffee example
+
+Converting my "Daily Task" flow chart to JavaScript code
 
 1. Starting with console.log
 2. Adding decisions
-3. making my processes into functions
-4. moving my functions between files to organize my code
+3. Making my processes into functions
 
