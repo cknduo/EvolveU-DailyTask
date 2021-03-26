@@ -1,6 +1,3 @@
-let isHeThere = false
-let isHeThereAfterLooking = false
-
 function doISeeHim() {
     console.log('Do I see him?')
 }

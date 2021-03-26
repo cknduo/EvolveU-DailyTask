@@ -1,4 +1,4 @@
-const { niceWeather, badWeather, driveToSchool, parkAndWait } = require('./gettingToSchool')
+const { niceWeather, runErrands, badWeather, driveToSchool, parkAndWait } = require('./gettingToSchool')
 const { doISeeHim, heIsNotThere, heIsLost, heIsFound } = require('./lookForHim')
 
 // DAILY TASK: PICKING MY BROTHER UP FROM SCHOOL
@@ -24,6 +24,7 @@ function schoolPickup(isWeatherNice) {
     console.log('Start')
     if (isWeatherNice) {
         niceWeather()
+        runErrands() // random task
     } else {
         inCaseOfBadWeather(isHeThere, isHeThereAfterLooking)   
     }
@@ -31,5 +32,5 @@ function schoolPickup(isWeatherNice) {
 }
 
 // CALL FUNCTION
-let isWeatherNice = false
+let isWeatherNice = true
 schoolPickup(isWeatherNice)
